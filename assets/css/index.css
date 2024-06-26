@@ -37,8 +37,8 @@ body{
 .subtitle{
     height: 20%;
     width: 100%;   
-    align-items: center;
 }
+
 .buttons{
     height: 60%;
     width: 100%;
@@ -74,23 +74,14 @@ body{
 
 .footer-initial-box{
     height: 15%;
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;    
+    width: 100%;      
     background-color: white;
     border-radius: 50% 50% 10px 10px;
     opacity: 80%;
     box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.212);
-
 }
 
-.footer-social-media {
-    display: flex;
-    justify-content: center;
-    align-items:flex-start;
-    width: 100%;
+.footer-social-media {    
     margin-top: 0.5rem;    
 }
 
@@ -109,4 +100,10 @@ body{
 
 .footer-social-media img:hover{
     opacity: 50%;
+}
+
+@media screen and (max-width: 375px) {
+    .subtitle p{
+        font-size: 12px;
+    }
 }
